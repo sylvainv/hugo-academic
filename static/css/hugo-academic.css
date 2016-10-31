@@ -21,7 +21,7 @@
 }
 
 html {
-  font-family: 'Merriweather', serif;
+  font-family: 'Merriweather', 'Avenir', sans-serif;
   font-size: 16px;
   color: rgba(0,0,0,0.8);
   line-height: 1.65;
@@ -61,7 +61,7 @@ ul, ol, dl {
 
 /* Navigation bar text */
 .navbar-default {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato', 'Avenir', sans-serif;
   font-weight: 400;
   line-height: 1.25;
   text-rendering: optimizeLegibility;
@@ -69,7 +69,7 @@ ul, ol, dl {
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato', 'Avenir', sans-serif;
   font-weight: 400;
   margin-bottom: .5rem;
   line-height: 1.25;
@@ -125,7 +125,7 @@ figcaption {
   line-height: 1.25;
   font-size: 1rem;
   margin-bottom: 1.65rem;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato', 'Avenir', sans-serif;
   counter-increment: captions;
 }
 
@@ -199,7 +199,7 @@ blockquote p:last-child {
 }
 
 .section-heading p {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato', 'Avenir', sans-serif;
   font-weight: 400;
   font-size: 1.1rem;
   color: #b2b2b2;
@@ -263,6 +263,23 @@ blockquote p:last-child {
 
 .big-icon {
   font-size: 2rem;
+}
+
+ul.ul-skills {
+  list-style: none;
+}
+
+ul.ul-skills li {
+  font-size: 0.9rem;
+  position: relative;
+  left: -35px;
+  padding: 0px 15px 4px 3px;
+}
+
+ul.ul-skills li i {
+  font-size: 1.5em;
+  position: relative;
+  top: 3px;
 }
 
 ul.ul-interests li {
